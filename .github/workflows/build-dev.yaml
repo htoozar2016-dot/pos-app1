@@ -37,7 +37,7 @@ jobs:
           file: ./deployment/Dockerfile.dev
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ghcr.io/htoozar2016-dot/pos-app:${{ steps.tag-version.outputs.version }}
+          tags: ghcr.io/htoozar2016-dot/pos-app1:${{ steps.tag-version.outputs.version }}
 
       # - name: Checkout Kustomize chart Repository
       #   uses: actions/checkout@v3
